@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.textarea {
+  padding: 1rem;
+  display: block;
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+  height: 90px;
+  border: none;
+  background-color: rgba(194, 196, 199, 0.274);
+}
+
+.keyboard {
+  padding: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+  border: 0.1rem solid black;
+  border-radius: 1rem;
+  width: 900px;
+  min-height: 40%;
+}
+
+.btn_line {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.2em auto;
+  width: 100%;
+  height: 40px;
+}
+
+.btn {
+  display: block;
+  min-width: 40px;
+  min-height: 40px;
+  padding: 0.4rem;
+  border: 0.1em solid rgb(0, 0, 0);
+  border-radius: 0.3rem;
+  background-color: inherit;
+  margin: 0 0.2rem;
+}
+.btn-s {
+  min-width: 60px;
+}
+.btn-m {
+  min-width: 90px;
+}
+.btn-l {
+  min-width: 130px;
+}
+.btn-xl {
+  min-width: 400px;
+}
+.btn:hover {
+  background-color: antiquewhite;
+}
+.btn:active {
+  background-color: rgb(233, 189, 132);
+  color: aliceblue;
+}
+
+.click {
+  background-color: rgb(233, 189, 132);
+  color: aliceblue;
+}/*# sourceMappingURL=style.css.map */
